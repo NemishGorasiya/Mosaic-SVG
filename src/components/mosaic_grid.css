@@ -1,0 +1,14 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(10, 50px);
+}
+
+.grid-item {
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+}
+
+.grid-item.selected {
+  background-color: black;
+}
